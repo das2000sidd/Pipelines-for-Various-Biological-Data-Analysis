@@ -97,6 +97,8 @@ cut -f1,7- all.counts | grep -v '^#' > all.gene.counts
 
 head all.gene.counts
 
+
+## to pull out records of as particular gene 
 grep BRCA2 all.gene.counts
 
 
